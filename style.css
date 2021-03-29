@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://www.xmple.com/wallpaper/red-blue-gradient-linear-1920x1080-c2-b22222-00008b-a-120-f-14.svg");
+}
+td {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 50px;
+}
+.endgame {
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: rgba(255, 255, 0, 0.61);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+
+
+    
+}
