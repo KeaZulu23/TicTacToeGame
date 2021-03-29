@@ -58,7 +58,7 @@ function gameOver(gameWon) {
 			gameWon.player == huPlayer ? "blue" : "red";
 	}
 	for (var i = 0; i < cells.length; i++) {
-		cells[i].removeEventListener('click', turnClick, false);
+		cells[i].removeEventListener('click', turnClick, true);
 	}
 	declareWinner(gameWon.player == huPlayer ? "You win!" : "You lose.");
 }
